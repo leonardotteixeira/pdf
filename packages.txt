@@ -1,0 +1,4 @@
+tesseract-ocr
+tesseract-ocr-por
+fonts-liberation
+fonts-dejavu-core

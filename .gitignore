@@ -1,0 +1,11 @@
+# Ambiente Python local
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Configuração local do editor/assistente
+.claude/
+
+# PDFs gerados em testes manuais
+*_formatado.pdf

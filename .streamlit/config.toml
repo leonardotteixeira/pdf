@@ -1,0 +1,23 @@
+[server]
+# No uso local, o iniciar.bat restringe o acesso a este computador
+# (--server.address localhost). Na hospedagem (Streamlit Cloud) a plataforma
+# define endereço e porta.
+headless = true
+maxUploadSize = 50
+runOnSave = false
+
+[browser]
+# Não envia estatísticas de uso para serviços externos.
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+backgroundColor = "#f8fafc"
+secondaryBackgroundColor = "#eef2f7"
+textColor = "#0f172a"
+font = "sans serif"
